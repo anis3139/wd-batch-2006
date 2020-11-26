@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+}
+
+.header-button button{
+    background-color: rgb(22, 32, 88);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 38px 30px;
+}
+
+.menu{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.menu ul{
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu ul li{
+   flex: 1 1 100px;
+   list-style: none;
+   padding: 20px;
+  
+}
+
+.menu ul li a{
+    display: inline-block;
+    color:#fff;
+    font-weight: bold;
+    padding:20px ;
+    text-decoration: none;
+
+}
+
+.menu ul li a:hover{
+    background-color: #fff;
+    color: #000;
+   
+}
+
+
+.about-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.about-section .about-content h1{
+    background-color: rgb(150, 141, 141);
+    padding: 20px 0px;
+}
+.about-section .about-content{
+   width: 600px;
+   padding: 20px;
+   text-align: justify;
+}
+
+.about-section .about-picture{
+    width: 600px;
+    padding: 20px;
+}
+.about-section .about-picture{
+    height: auto;
+}
+.blog-section .blog-content{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog-section .blog-content h2{
+    padding: 20px;
+   border-bottom: 2px solid #95c4ac;
+   margin-bottom: 10px;
+}
+.blog{
+    background-color: #2c2e2c;
+    color: #fff;
+    padding: 20px;
+    width:400px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer p{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+
